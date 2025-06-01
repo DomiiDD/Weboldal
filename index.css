@@ -10,6 +10,7 @@ body {
   height: auto;
   border-radius: 10%;
   margin-bottom: 10px;
+
 }
 
 img:hover {
@@ -28,7 +29,10 @@ img:hover {
 
 .cont1 {
 margin: auto;
+display: flex;
+align-items: center;
 }
+
 
 .bemutatkozo-szoveg {
   margin-left: 90px;
@@ -44,7 +48,7 @@ margin: auto;
   display: flex;
   justify-content: center;   
   align-items: center;      
-  height: 50px;            
+  height: 60px;            
   text-align: center;
   padding-top: 25px;
   background-color:  #778899;
@@ -144,3 +148,46 @@ line-height: -5px;
 }
 
 
+.float-image {
+  float: left; 
+  margin: 0 15px 15px 0;
+  width: 200px; 
+  height: auto;
+}
+
+@media (max-width: 600px) {
+    .szikszilogo {
+      display: block;
+      margin: 0 auto 10px auto;
+    }
+    .DD-img {
+      float: none;
+      display: block;
+      margin: auto;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    .bemutatkozas-container {
+      display: block;
+    }
+    .also {
+      height: 70px;
+    }
+    .bemutatkozo-szoveg2, .bemutatkozo-szoveg {
+     margin: 0px 10px 0px 135px;
+     }
+     .nav-item-2{
+      margin-left: 60px;
+      text-align: center;
+     }
+     .bemutat3 {
+      text-align: center;
+     }
+     .szikszicard, .moracard {
+      margin-bottom: 20px;
+     }
+     .Móra-img, .Szikszi-img {
+      padding: 0px 1px;
+      margin: auto;
+     }
+}
